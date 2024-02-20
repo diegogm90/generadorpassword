@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1a1a1a;
+    color: #33ff33;
+}
+
+.password-generator {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #33ff33;
+    background-color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #33ff33;
+}
+
+.password-generator label,
+.password-generator input[type="text"],
+.password-generator input[type="number"] {
+    color: #33ff33;
+    background-color: #2a2a2a;
+    border: 1px solid #33ff33;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.password-generator input[type="checkbox"] {
+    background-color: #2a2a2a;
+    margin-right: 5px;
+}
+
+.password-generator button {
+    cursor: pointer;
+    background-color: #33ff33;
+    color: #202020;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.password-generator button:hover {
+    background-color: #1a1a1a;
+    color: #33ff33;
+}
+
+.password-generator #copy-btn {
+    margin-top: 15px;
+    width: 100%;
+}
